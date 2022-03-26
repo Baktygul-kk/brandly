@@ -224,3 +224,24 @@ body {
   border: 1px solid black;
   width: 144px;
 }
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer__img {
+  background-image: url("../img/footer-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 1920px;
+  height: 250px;
+  left: -117px;
+  top: 2150px;
+}
+
+.footer__text {
+  color: white;
+  padding: 120px 0 60px 230px;
+}
