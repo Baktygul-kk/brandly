@@ -1,0 +1,37 @@
+@import "vars";
+
+.blog {
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      width: 570px;
+      position: absolute;
+      
+    }
+
+
+    &__title {
+        text-transform: uppercase;
+        color: $accent;
+        text-align: start;
+    }
+
+    &__author {
+        text-align: start;
+    }
+   
+    &__text {
+        color: $grey;
+        text-align: start;
+        font-weight: normal;
+        line-height: 21.6px;
+    }
+
+    &__btn {
+        text-transform: uppercase;
+        border: 1px solid black;
+        width: 144px;
+    }
+}  
+
