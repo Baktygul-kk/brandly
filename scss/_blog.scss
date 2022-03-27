@@ -1,6 +1,7 @@
 @import "vars";
 
 .blog {
+    margin-bottom: 750px;
 
     &__item {
       display: flex;
@@ -9,12 +10,19 @@
       position: absolute;
       
     }
+    /*&__img {
+        background-image: url("../img/blog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }*/
 
 
     &__title {
         text-transform: uppercase;
         color: $accent;
         text-align: start;
+        padding-top: 20px;
     }
 
     &__author {
@@ -32,6 +40,11 @@
         text-transform: uppercase;
         border: 1px solid black;
         width: 144px;
+    
+    &:hover {
+        color: $accent;
+        background-color: $grey;
+      }
     }
 }  
 

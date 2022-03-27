@@ -1,22 +1,14 @@
 @import "vars";
 
 .footer {
-    margin-top: 50px;
-    &__img {
+    margin-top: 400px;
     background-image: url("../img/footer-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    width: 1920px;
-    height: 250px;
-    left: -117px;
-    top: 2150px;
-    
-    }
+    padding: 65px 0;
 
     &__text {
     color: white;
-    padding: 120px 0 60px 230px;
     }
 }
